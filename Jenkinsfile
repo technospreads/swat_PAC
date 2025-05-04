@@ -18,8 +18,8 @@ parameters {
 					println "Here is your global/predefined variables ${currentBuild.result}"
 					println "Here is your global/predefined variables ${currentBuild.id}"
 					println "Here is your global/predefined environment variables ${env.JOB_NAME}"
-					println "Here is your defined environment variables ${SUBJECT}"
-					println " Here is your defined parameterised variable and you have choosen envirnment is : ${environment}"
+					println "Here is your defined environment variables ${env.SUBJECT}"
+					println " Here is your defined parameterised variable and you have choosen envirnment is : ${params.environment}"
                     
                 }
             }
